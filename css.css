@@ -1,38 +1,45 @@
 @font-face {
     font-family: "Font Ramadhan Mubarok Regular";
     src: url('ramadhan.otf');
-    }
+}
 
-.container-fluid{
+@font-face {
+    font-family: 'Selamat Hari Raya Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Selamat Hari Raya.woff') format('woff');
+}
+
+.container-fluid {
     height: 100vh;
     width: 100%;
     background-color: #152238;
 }
 
-.card{
+.card {
     background-image: url("back.jpg");
     background-size: cover;
 }
 
-.p1{
+.p1 {
     font-size: 0.8rem;
     font-style: italic;
 }
 
-.p2{
+.p2 {
     font-size: 1rem;
     font-weight: 500;
-    font-family: 'Font Ramadhan Mubarok Regular';
+    font-family: 'Selamat Hari Raya Regular';
 }
 
-.p3{
+.p3 {
     font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Font Ramadhan Mubarok Regular';
+    font-weight: 500;
+    font-family: 'Selamat Hari Raya Regular';
     line-height: 0;
 }
 
-.p4{
-    font-family: 'Font Ramadhan Mubarok Regular';
+.p4 {
+    font-family: 'Selamat Hari Raya Regular';
     font-size: 1rem;
 }
